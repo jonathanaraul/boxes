@@ -1,0 +1,34 @@
+INFORME DE AVANCE: 29/09/14
+
+Objetivo: Uso del motor de plantillas Blade para creacion de diferentes vistas
+
+Alcance del día: Creacion de vistas de listados, proyectos y edicion de form create.
+
+Actividades Realizadas:
+
+1) Edicion de Form create
+2) Creacion de las vistas:
+
+	
+	-Listado de proyectos
+
+	-Listado de actividades
+
+	-Listado de clientes
+
+	-Listado de desarrolladores
+
+
+3) Creacion de entrada "Listados" en menu con sub-menus de vistas hijas
+4) Creacion de vista projects.blade.php
+
+5) Se agrego la ruta para la vista projects.blade.php
+6) Inclusion de estilos en layout base para vista nueva
+
+7) Eliminacion de codigo innecesario en layout base
+
+NOTA: Actualizar archivos de confide editados en carpeta vendors. 
+
+
+
+	     

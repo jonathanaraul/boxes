@@ -1,0 +1,29 @@
+INFORME DE AVANCE: 01/10/14
+
+Objetivo: Uso del motor de plantillas Blade para creacion de diferentes vistas
+
+Alcance del día: Creacion de vistas de inbox, my_profile, edicion de scrip inbox.js para correcta carga de vistas
+de correo interno, ediciones menores en diferentes vistas y adicion de entradas en menu.
+
+Actividades Realizadas:
+
+1) Creacion de las vistas:
+
+	
+	-inbox_inbox.blade.php (mensajes recibidos, enviados, borradores, papelera)
+	-inbox_compose.blade.php (Redactar)
+	-inbox_reply.blade.php
+ (Responder)
+	-inbox_view.blade.php (Ver mensaje)
+	-my_profile.blade.php (Perfil de usuario)
+
+
+2) Adicion de nueva entrada en el menu --> (Mail) (((En espera de aprobación)))
+3) Edicion de diferentes urls de menu
+4) Creacion de nuevas rutas para vistas nuevas
+5) Inclusion de estilos y js en layout base para vistas nueva
+s
+
+
+
+	     

@@ -1,0 +1,30 @@
+INFORME DE AVANCE: 30/09/14
+
+Objetivo: Uso del motor de plantillas Blade para creacion de diferentes vistas
+
+Alcance del día: Creacion de vistas de formularios, timeline, inbox, familiarizacion con plugin select2 para
+creacion de selects de seleccion multiple y otras funcionalidades
+
+Actividades Realizadas:
+
+1) Creacion de las vistas:
+
+	
+	-Activities_form
+	-Projects_form
+
+	-client_form
+
+	-developers_form
+
+
+2) Adicion de nuevas entradas en el menu (Proyectos, Gestion de Usuarios, Actividades) (((En espera de aprobación)))
+3) Creacion de vista timeline.blade.php
+ e inbox.blade.php
+4) Creacion de nuevas rutas para vistas nuevas
+5) Inclusion de estilos y js en layout base para vistas nueva
+
+
+
+
+	     
