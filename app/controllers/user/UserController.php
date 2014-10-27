@@ -18,6 +18,15 @@ class UserController extends BaseController {
         $this->user = $user;
     }
 
+
+    public function getOnLine()
+    {
+        $data['objects'] = array('jonathan','araul','luis');
+        $data['colors'] = array('yellow','blue','purple','red','grey');
+
+        return View::make('site/user/online', array('data'=>$data));
+    }
+
     /**
      * Users settings page
      *

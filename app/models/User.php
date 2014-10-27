@@ -104,4 +104,9 @@ class User extends ConfideUser implements UserInterface, RemindableInterface{
         return $this->email;
     }
 
+    public function box(){
+        return $this->hasMany('Box','user_id');
+    }
+
+
 }

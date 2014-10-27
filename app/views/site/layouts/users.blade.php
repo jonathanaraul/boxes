@@ -68,9 +68,6 @@ License: You must have a valid license purchased only from themeforest(the above
 <body class="login">
 <!-- BEGIN LOGO -->
 <div class="logo">
-    <a href="index.html">
-        <img src="{{asset('assets-template/admin/layout2/img/logo-big.png')}}" alt=""/>
-    </a>
 </div>
 <!-- END LOGO -->
 <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
@@ -82,11 +79,7 @@ License: You must have a valid license purchased only from themeforest(the above
     @yield('content')
 </div>
 <!-- END LOGIN -->
-<!-- BEGIN COPYRIGHT -->
-<div class="copyright">
-    2014 &copy; Metronic - Admin Dashboard Template.
-</div>
-<!-- END COPYRIGHT -->
+
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>

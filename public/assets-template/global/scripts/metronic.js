@@ -221,7 +221,7 @@ var Metronic = function() {
 
     // Handles Bootstrap Tooltips.
     var handleTooltips = function() {
-        $('.tooltips').tooltip();
+       // $('.tooltips').tooltip();
     };
 
     // Handles Bootstrap Dropdowns
@@ -252,7 +252,7 @@ var Metronic = function() {
     var lastPopedPopover;
 
     var handlePopovers = function() {
-        $('.popovers').popover();
+       // $('.popovers').popover();
 
         // close last displayed popover
 
@@ -415,7 +415,7 @@ var Metronic = function() {
                     height = $(this).css('height');
                 }
 
-                $(this).slimScroll({
+                /*$(this).slimScroll({
                     allowPageScroll: true, // allow page scroll when the element scroll is ended
                     size: '7px',
                     color: ($(this).attr("data-handle-color") ? $(this).attr("data-handle-color") : '#bbb'),
@@ -426,7 +426,7 @@ var Metronic = function() {
                     alwaysVisible: ($(this).attr("data-always-visible") == "1" ? true : false),
                     railVisible: ($(this).attr("data-rail-visible") == "1" ? true : false),
                     disableFadeOut: true
-                });
+                });*/
 
                 $(this).attr("data-initialized", "1");
             });

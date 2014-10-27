@@ -13,8 +13,7 @@
         "laravel/framework": "~4.2",
         "zizaco/confide": "~3.2",
         "zizaco/entrust": "~1.2",
-        "bllim/datatables": "~1.3",
-        "anahkiasen/former": "dev-master"
+        "bllim/datatables": "~1.3"
 
     },
     "require-dev": {
@@ -23,7 +22,6 @@
         "mockery/mockery": "~0.9",
         "summerstreet/woodling": "~0.1.6",
         "barryvdh/laravel-ide-helper": "~1.11"
-        //"anahkiasen/former": "dev-master"
     },
     "autoload": {
         "classmap": [

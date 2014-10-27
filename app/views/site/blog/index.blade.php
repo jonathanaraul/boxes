@@ -51,7 +51,7 @@
         <div class="row">
             <div class="col-md-12 blog-page">
                 <div class="row">
-                    <div class="col-md-9 col-sm-8 article-block">
+                    <div class="col-md-12 col-sm-12 article-block">
                         <h1 style="margin-top:0px">Latest Blog</h1>
                         @foreach ($posts as $post)
                         <div class="row">
@@ -109,49 +109,6 @@
                         {{ $posts->links() }}
                     </div>
                     <!--end col-md-9-->
-                    <div class="col-md-3 col-sm-4 blog-sidebar">
-                        @include('site.blog.top_entiries')
-                        @include('site.blog.flickr')
-                        @include('site.blog.tabs')
-                        @include('site.blog.recent_twitts')
-                        <!--end col-md-3-->
-                    </div>
-                    <ul class="pagination pull-right">
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                1 </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                2 </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                3 </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                4 </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                5 </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                6 </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>

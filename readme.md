@@ -15,7 +15,7 @@ como HTML5, CSS3, PHP, MySQL, Programación MVC, librerias JS
 
 ### Paso 2: Usar Composer para instalar las dependencias del framework
 
-    cd boxes
+    cd C:\wamp\www\boxes (Caso windows/wampserver)
 	composer install --dev
 
 ### Paso 4: Configurar base de datos
